@@ -7,6 +7,7 @@ const express_1 = __importDefault(require("express"));
 const dotenv_1 = __importDefault(require("dotenv"));
 //EL PUERTO DEBE IR ANTES DE APP EXPRESSS SINO DA ERROR
 const port = process.env.PORT || 3000;
+//aqui estoy trabajando el git 1
 const app = (0, express_1.default)();
 dotenv_1.default.config();
 // Servir contenido estatico

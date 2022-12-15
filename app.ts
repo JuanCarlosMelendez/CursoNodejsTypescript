@@ -3,7 +3,7 @@ import dotenv from 'dotenv';
 
 //EL PUERTO DEBE IR ANTES DE APP EXPRESSS SINO DA ERROR
 const port = process.env.PORT || 3000;
-
+//aqui estoy trabajando el git 1
 const app = express();
 dotenv.config();
 
